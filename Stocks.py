@@ -22,7 +22,5 @@ print('Amount paid for Stock:',Num_Shares*Purchase_Price)
 print('commission paid on the purchase:',Commission_Rate*amountPaidForStock)
 print('Amount the stock sold for:',Num_Shares*Selling_Price)
 print('commission paid on the sale:',Commission_Rate*stockSoldFor)
-print('total commision paid:',stockSoldFor-sellingCommission)
+print('total commision paid:',purchaseCommission+sellingCommission)
 print('Profit (or loss if negative):',totalReceived-totalPaid)
-
-
